@@ -1,0 +1,36 @@
+telnet 151.248.115.32 80
+POST /api/req/first/second/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/%D0%92%D0%BE%D1%80%D0%BE%D0%B1%D1%8C%D0%B5%D0%B2/ HTTP/1.1
+Host:kodaktor.ru
+Content-Type:application/x-www-form-urlencoded
+Content-Length:107
+
+
+name=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9&familyname=%D0%92%D0%BE%D1%80%D0%BE%D0%B1%D1%8C%D0%B5%D0%B2
+
+=================
+Console log:
+=================
+Trying 151.248.115.32...
+Connected to 151.248.115.32.
+Escape character is '^]'.
+POST /api/req/first/second/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9/%D0%92%D0%BE%D1%80%D0%BE%D0%B1%D1%8C%D0%B5%D0%B2/ HTTP/1.1
+Host:kodaktor.ru
+Content-Type:application/x-www-form-urlencoded
+Content-Length:107
+
+name=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9&familyname=%D0%92%D0%BE%D1%80%D0%BE%D0%B1%D1%8C%D0%B5%D0%B2
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,POST,DELETE
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
+Content-Type: application/json; charset=utf-8
+X-By: Ilya Goss (c)2017
+X-Test: POSTea0134702859871d98e5756b293f12fa
+Content-Length: 99
+ETag: W/"63-vi9YtcRACTQupa6pR60shA"
+set-cookie: connect.sid=s%3ArWW_MMc2tIJg-pj0T5jSejYwZcqIdpgh.qBx7STkL0G%2BS%2BJPt%2BhAXx7HaWPB9zrbBewS%2B%2F2Qt7P0; Path=/; Expires=Fri, 16 Mar 2018 14:49:48 GMT; HttpOnly
+Date: Fri, 16 Mar 2018 12:03:08 GMT
+Connection: keep-alive
+
+{"name":"Алексей","familyname":"Воробьев","_METHOD":"POST","_NAME":"Алексей"}Connection closed by foreign host.
